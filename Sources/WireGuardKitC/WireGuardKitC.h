@@ -4,6 +4,11 @@
 #include "key.h"
 #include "x25519.h"
 
+
+typedef unsigned int            u_int32_t;
+typedef unsigned short            u_int16_t;
+typedef unsigned char            u_char;
+
 /* From <sys/kern_control.h> */
 #define CTLIOCGINFO 0xc0644e03UL
 struct ctl_info {
